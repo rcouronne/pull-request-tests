@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="test-pull-request" xmlns:unless="ant:unless" xmlns:if="ant:if">
+    <tstamp>
+        <format property="TODAY" pattern="yyyyMMdd_HHmmss"/>
+        <format property="NOW" pattern="yyyyMMdd_HHmmss"/>
+    </tstamp>
+    <property name="logname" value="${basedir}/_logs/${TODAY}_${ant.project.name}.log"/>
+    
+    <!-- ***************************************************************************** -->
+    <!-- ***                                TARGET                                 *** -->
+    <!-- ***************************************************************************** -->
+    <target name="main" >
+        <echo> --- Starting --- </echo>
+        <echo message="${TODAY}" />
+    </target>
+    
+</project>
