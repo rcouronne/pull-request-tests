@@ -12,6 +12,7 @@
     <target name="main" >
         <echo> --- Starting --- </echo>
         <echo message="${TODAY}" />
+		<echo message=" tryin' to brake things up...>
     </target>
     
 </project>
